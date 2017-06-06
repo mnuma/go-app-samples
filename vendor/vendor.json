@@ -1,0 +1,37 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "DYv6Q1+VfnUVxMwvk5IshAClLvw=",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "5e5dc898656f695e2a086b8e12559febbfc01562",
+			"revisionTime": "2017-05-15T10:45:16Z"
+		},
+		{
+			"checksumSHA1": "XZ96seKtoJt55YtqPL7B6fFpDiI=",
+			"path": "github.com/lestrrat/go-file-rotatelogs",
+			"revision": "9df8b44f21785240553882138c5df2e9cc1db910",
+			"revisionTime": "2017-05-01T06:38:31Z"
+		},
+		{
+			"checksumSHA1": "zN17KECTZM56xvdBURLqpW1duYg=",
+			"path": "github.com/lestrrat/go-strftime",
+			"revision": "04ef93e285313c8978cbc7cad26d2aa7a9927451",
+			"revisionTime": "2017-01-13T11:20:00Z"
+		},
+		{
+			"checksumSHA1": "rJab1YdNhQooDiBWNnt7TLWPyBU=",
+			"path": "github.com/pkg/errors",
+			"revision": "c605e284fe17294bda444b34710735b29d1a9d90",
+			"revisionTime": "2017-05-05T04:36:39Z"
+		},
+		{
+			"checksumSHA1": "PugQbLLjnbBSj+NOXRYBVRnLuuQ=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "b90f89a1e7a9c1f6b918820b3daa7f08488c8594",
+			"revisionTime": "2017-05-29T13:44:53Z"
+		}
+	],
+	"rootPath": "github.com/mnuma/go-app-samples"
+}
