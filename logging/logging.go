@@ -1,16 +1,17 @@
 package logging
 
 import (
+	"fmt"
+	"io"
+	"log"
+	"os"
+	"path/filepath"
+	"runtime"
+	"strconv"
+	"time"
+
 	"github.com/Sirupsen/logrus"
 	"github.com/lestrrat/go-file-rotatelogs"
-	"path/filepath"
-	"os"
-	"log"
-	"time"
-	"io"
-	"runtime"
-	"fmt"
-	"strconv"
 )
 
 var (
@@ -32,8 +33,8 @@ func SetupAppLogger() *logrus.Logger {
 
 	rl, err := rotatelogs.New(
 		path,
-		rotatelogs.WithMaxAge(86400 * time.Second),
-		rotatelogs.WithRotationTime(86400 * time.Second),
+		rotatelogs.WithMaxAge(86400*time.Second),
+		rotatelogs.WithRotationTime(86400*time.Second),
 		rotatelogs.WithLinkName("/tmp/app.log"),
 	)
 	if err != nil {
